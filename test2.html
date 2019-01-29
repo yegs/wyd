@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  
+  <button onclick="dd()">下载安装</button>
+  <script>
+    function dd() {
+      window.location.href= "itms-services://?action=download-manifest&url=https://github.com/yegs/wyd/blob/master/download.plist"
+<!--      window.webkit.messageHandlers.jsCallNativeFinsh.postMessage(null);-->
+    }
+  </script>
+</body>
+</html>
