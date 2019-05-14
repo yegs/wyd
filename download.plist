@@ -16,7 +16,7 @@
                 <key>metadata</key>
                 <dict>
                     <key>bundle-identifier</key>
-                    <string>com.linkfin.sharebank</string><!--修改这里-->
+                    <string>com.linkfin.sharebank.test</string><!--修改这里-->
                     <key>bundle-version</key>
                     <string>1.0.1</string><!--修改这里-->
                     <key>kind</key>
